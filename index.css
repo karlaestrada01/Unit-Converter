@@ -15,33 +15,36 @@ body {
     text-align: center;
     color: #FEF7F9;
     text-shadow: 0px 0px 2px #911634;
+    height: 400px;
 }
 #title {
     font-size: 40px;
 }
 #user-input {
-    width: 100px;
-    height: 80px;
+    width: 140px;
+    height: 120px;
     border-radius: 4px;
     border: 2px solid #C6CBAD;
     background: #FCE8ED;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     font-weight: bold;
     color: #911634;
-    margin-bottom:10px;
+    margin-bottom:30px;
+    margin-top: 25px
     
 }
 #convert-btn {
     display: block;
-    width: 100px;
-    margin: 0 auto;
+    width: 140px;
+    margin: 40px auto 10px auto;
     margin-top: 10px;
     background: #EF94AB;
     color: white;
-    padding: 6px 12px 6px 12px;
+    padding: 6px 16px 6px 16px;
     border: 2px solid #FDE4C3;
-    border-radius: 4px
+    border-radius: 4px;
+    font-size: 18px;
 }
 #convert-btn:hover {
     background: #911634;
@@ -59,4 +62,6 @@ body {
 .conversions {
     padding: 10px;
     text-align: center;
+    color: #911634;
+    text-shadow: 0px 0px 1px black;
 }

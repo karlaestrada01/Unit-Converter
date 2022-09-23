@@ -33,7 +33,7 @@ function length(givenNum) {
             
     }
     main.innerHTML = `
-        <div class="conversions" id="length">
+        <div class="conversions">
             <h1>Length (Meters/Feet)</h1>
             <p>${givenNum} ${meterMeasurement} = ${metersToFeet} ${footMeasurement} | ${givenNum} ${footMeasurement} = ${feetToMeters} ${meterMeasurement} </p>
         
@@ -59,7 +59,7 @@ function volume(givenNum) {
     }
         
     main.innerHTML += `
-        <div class="conversions" id="volume">
+        <div class="conversions">
             <h1>Volume (Liters/Gallon)</h1>
             <p>${givenNum} ${litersMeasurement} = ${litersToGallon} ${gallonMeasurement} | ${givenNum} ${gallonMeasurement} = ${gallonToliter} ${litersMeasurement} </p>
         
@@ -84,7 +84,7 @@ function mass(givenNum) {
     }
         
     main.innerHTML += `
-        <div class="conversions" id="length">
+        <div class="conversions">
             <h1>Mass (Kilograms/Pounds)</h1>
             <p>${givenNum} ${kiloMeasurement} = ${kiloToPound} ${poundMeasurement} | ${givenNum} ${poundMeasurement} = ${poundToKilo} ${kiloMeasurement} </p>
         
